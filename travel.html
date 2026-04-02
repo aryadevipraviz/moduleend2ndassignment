@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Your Way - Explore the World</title>
+    <link rel="stylesheet" href="css/travel.css">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+    
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="images/images.png" alt="Travel Logo" class="logo-img">
+                <span class="logo-text">Travel Your Way</span>
+            </div>
+    
+            <!-- Navigation -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    
+            <!-- Hamburger -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+        </nav>
+    </header>
+    
+
+    <main>
+
+       <!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>
+                Discover <span class="highlight">Beautiful Places</span><br>
+                Around The World
+            </h1>
+
+            <p>
+                Plan your next adventure with Travel Your Way. 
+                Book flights, hotels, and unforgettable experiences — all in one place.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#destinations" class="btn primary-btn">Explore Destinations</a>
+                <a href="#contact" class="btn secondary-btn">Plan Your Trip</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+        <!-- Features Section -->
+        <section class="features py-5 bg-light" id="features">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Why Choose Travel Your Way?</h2>
+                    <p class="text-muted">Experience seamless travel planning with premium services.</p>
+                </div>
+        
+                <div class="row g-4">
+        
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card shadow-lg border-0 h-100 feature-card">
+                            <div class="card-body text-center">
+                                <div class="icon mb-3">
+                                    <i class="bi bi-airplane-fill fs-1 text-primary"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">Easy Booking</h5>
+                                <p class="card-text">
+                                    Book flights and hotels quickly with our smooth and secure platform.
+                                </p>
+                                <button class="btn btn-primary mt-3"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#featureModal1">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card shadow-lg border-0 h-100 feature-card">
+                            <div class="card-body text-center">
+                                <div class="icon mb-3">
+                                    <i class="bi bi-cash-stack fs-1 text-success"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">Best Prices</h5>
+                                <p class="card-text">
+                                    Enjoy unbeatable travel deals with transparent pricing.
+                                </p>
+                                <button class="btn btn-success mt-3"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#featureModal2">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card shadow-lg border-0 h-100 feature-card">
+                            <div class="card-body text-center">
+                                <div class="icon mb-3">
+                                    <i class="bi bi-headset fs-1 text-danger"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">24/7 Support</h5>
+                                <p class="card-text">
+                                    Our team is always ready to assist you anytime, anywhere.
+                                </p>
+                                <button class="btn btn-danger mt-3"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#featureModal3">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+<!-- Modal 1 -->
+<div class="modal fade custom-modal" id="featureModal1" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header custom-header">
+          <h5 class="modal-title">✈ Easy Booking</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <div class="modal-body text-center">
+          <p>
+            Book flights, hotels, and tours within minutes using our secure and 
+            user-friendly platform designed for stress-free travel.
+          </p>
+  
+          <a href="#contact" class="btn explore-btn mt-3">Start Booking</a>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Modal 2 -->
+  <!-- Modal 2 -->
+<div class="modal fade custom-modal" id="featureModal2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header custom-header">
+          <h5 class="modal-title">💰 Best Prices</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <div class="modal-body text-center">
+          <p>
+            Enjoy unbeatable travel deals with transparent pricing, exclusive seasonal 
+            discounts, and zero hidden charges.
+          </p>
+  
+          <a href="#destinations" class="btn explore-btn mt-3">
+            View Offers
+          </a>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Modal 3 -->
+  <!-- Modal 3 -->
+<div class="modal fade custom-modal" id="featureModal3" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header custom-header">
+          <h5 class="modal-title">🎧 24/7 Support</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <div class="modal-body text-center">
+          <p>
+            Our dedicated travel experts are available 24/7 to assist you with bookings,
+            itinerary planning, and travel guidance.
+          </p>
+  
+          <a href="#contact" class="btn explore-btn mt-3">
+            Contact Support
+          </a>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  
+        <!-- Destinations Section -->
+        <section class="destinations py-5" id="destinations">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Explore Popular Destinations</h2>
+                    <p class="text-muted">Discover the most loved travel spots around the world</p>
+                </div>
+        
+                <div class="row g-4">
+        
+                    <!-- Paris -->
+                    <div class="col-md-4">
+                        <div class="destination-card">
+                            <div class="destination-img">
+                                <img src="images/paris.jpeg" alt="Paris">
+                                <div class="overlay">
+                                    <h3>Paris</h3>
+                                    <p>The city of lights and romance awaits you.</p>
+                                    <a href="#contact" class="btn explore-destination-btn">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Bali -->
+                    <div class="col-md-4">
+                        <div class="destination-card">
+                            <div class="destination-img">
+                                <img src="images/bali.jpeg" alt="Bali">
+                                <div class="overlay">
+                                    <h3>Bali</h3>
+                                    <p>Experience tropical paradise and serene beaches.</p>
+                                    <a href="#contact" class="btn explore-destination-btn">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Maldives -->
+                    <div class="col-md-4">
+                        <div class="destination-card">
+                            <div class="destination-img">
+                                <img src="images/maldives.jpeg" alt="Maldives">
+                                <div class="overlay">
+                                    <h3>Maldives</h3>
+                                    <p>Crystal clear waters and luxury resorts.</p>
+                                    <a href="#contact" class="btn explore-destination-btn">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Contact Section -->
+        <section class="contact-section py-5" id="contact">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Get In Touch</h2>
+                    <p class="text-muted">Plan your next adventure with us</p>
+                </div>
+        
+                <div class="contact-wrapper">
+        
+                    <form class="contact-form" action="#" method="post">
+        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name"
+                                       placeholder="Enter your full name"
+                                       required
+                                       minlength="3">
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email"
+                                       placeholder="example@email.com"
+                                       required>
+                            </div>
+                        </div>
+        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone"
+                                       placeholder="123-456-7890"
+                                       required
+                                       pattern="[0-9]{10}"
+                                       title="Enter 10 digit phone number">
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject"
+                                       placeholder="Travel Inquiry"
+                                       required>
+                            </div>
+                        </div>
+        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="destination">Preferred Destination</label>
+                                <select id="destination" name="destination">
+                                    <option value="">Select Destination</option>
+                                    <option>Paris</option>
+                                    <option>Bali</option>
+                                    <option>Maldives</option>
+                                </select>
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="date">Travel Date *</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                        </div>
+        
+                        <div class="form-group full-width">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message"
+                                      rows="5"
+                                      placeholder="Write your message here..."
+                                      required minlength="10"></textarea>
+                        </div>
+        <br>
+                        <div class="form-submit ">
+                            <button type="submit" class="submit-btn float-right">
+                                Send Message ✈
+                            </button>
+                        </div>
+        
+                    </form>
+        
+                </div>
+            </div>
+        </section>
+        
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <!-- Brand Section -->
+            <div class="footer-section">
+                <h3>Travel Your Way</h3>
+                <p>
+                    Explore the world with comfort and confidence. 
+                    We help you discover unforgettable destinations and experiences.
+                </p>
+            </div>
+    
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@travelyourway.com</p>
+                <p>Phone: +1 234 567 890</p>
+                <p>Address: 123 Travel Street, Adventure City, USA</p>
+            </div>
+    
+            <!-- Social Media -->
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#">🌍</a>
+                    <a href="#">✈</a>
+                    <a href="#">📸</a>
+                    <a href="#">💼</a>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2026 Travel Your Way. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("navLinks");
+        
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+        </script>
+        
+
+</body>
+</html>

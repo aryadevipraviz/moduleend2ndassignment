@@ -142,7 +142,7 @@ if (signinForm) {
         if (isValid) {
             if (email.value === storedEmail && password.value === storedPassword) {
                 alert("Login Successful!");
-                window.location.href = "assigmment6ModuleEnd/index.html";
+                window.location.href = "travel.html";
             } else {
                 alert("Invalid Email or Password");
             }
