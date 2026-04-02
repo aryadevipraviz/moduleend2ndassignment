@@ -103,7 +103,7 @@ if (signupForm) {
             localStorage.setItem("userPassword", password.value);
 
             alert("Signup Successful!");
-            window.location.href = "SignIn.html";
+            window.location.href = "index.html";
         }
     });
 }
